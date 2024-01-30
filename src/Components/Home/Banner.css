@@ -1,0 +1,121 @@
+
+.Banner_Bar{
+    margin-top: 30px;
+    width: 1136px;
+    height: 80px;
+    margin-left: 14%;
+   
+}
+
+.Banner_BarNav{
+    border-radius: 12px !important;
+}
+
+.Banner_Bar .bg-body-tertiary{
+    background-color: var(--White, #FFF) !important;
+}
+
+.Nav_Text{
+    color: var(--Dark, #001A1A);
+font-family: "IBM Plex Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px
+}
+
+.Banner_Text{
+text-align: center;
+font-family: "IBM Plex Mono";
+font-size: 140px;
+font-style: normal;
+font-weight: 700;
+line-height: 132px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 6.44%, #FFF 95.08%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+/* .Banner_TextMain{
+    max-width: 600px;
+} */
+
+/* Media Queries */
+
+@media(max-width:1334px){
+    .Banner_Bar{
+        margin-left: 17%;
+        width: 900px;
+    }
+}
+
+@media(max-width:1095px){
+    .Banner_Bar{
+        margin-left: 15%;
+        width: 800px;
+    }
+    .Banner_Text{
+        font-size: 100px;
+        margin-top: -30px;
+    }
+}
+
+@media(max-width:955px){
+    .Banner_Bar{
+        margin-left: 13%;
+        width: 700px;          
+        margin-top: -5px;
+    }
+    .Banner_Text {
+        font-size: 90px;
+        margin-top: -51px;
+    }
+}
+
+@media(max-width:806px){
+    .Banner_Bar{
+        width: 100%;
+        margin-left: 0%;
+         
+    }
+    .Banner_BarNav{
+        border-radius: 0px !important;
+    }
+    .Banner_Text{
+        font-size: 65px;
+        margin-top: -55px;
+        
+    }
+    div br{
+        display: none !important;
+    }
+}
+
+@media(max-width:700px){
+
+   
+    .banner_AlohaIcon{
+        width: 94px;
+        height: 35px;
+    }
+
+    .BannerImg{
+        height: 480px !important;
+    }
+
+    .Banner_Text{
+        font-size: 64px;
+        margin-top: 7%; 
+        line-height: normal;
+    }
+
+    div br{
+        display: inline !important;
+    }
+
+    .book_btn{
+        margin-left: 30px;
+    }
+
+}
